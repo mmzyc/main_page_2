@@ -27,7 +27,7 @@ services:
       description: 可以生成yaml配置
       link: 'https://tool.mjmm.dpdns.org/yaml_tool/'
       icon:
-        url: data/favicons/favicon.png
+        url: https://blog.mjmm.top/upload/favicon.png
       status:
         enabled: true
         interval: 3600
