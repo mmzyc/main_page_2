@@ -23,3 +23,12 @@ services:
       status:
         enabled: true
         interval: 3600
+    - title: yaml生成工具
+      description: 可以生成yaml配置
+      link: 'https://tool.mjmm.dpdns.org/yaml_tool/'
+      icon:
+        url: favicons/favicon.ico
+      status:
+        enabled: true
+        interval: 3600
+
