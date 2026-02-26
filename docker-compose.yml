@@ -8,4 +8,4 @@ services:
       - '3888:3000'
     volumes:
       - ./data/config.yml:/app/data/config.yml
-      - ./src/public:/app/public/favicons
+      - ./data/favicons:/app/public/favicons
