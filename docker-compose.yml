@@ -7,5 +7,6 @@ services:
     ports:
       - '3888:3000'
     volumes:
+      - ./data:/app/data
       - ./data/config.yml:/app/data/config.yml
       - ./data/favicons:/app/public/favicons
