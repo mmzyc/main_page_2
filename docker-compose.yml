@@ -9,4 +9,3 @@ services:
     volumes:
       - ./data/config.yml:/app/data/config.yml
       - ./src/public:/app/public/favicons
-      - /root/main_page_2:/app
