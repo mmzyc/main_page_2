@@ -1,0 +1,25 @@
+title: 木锦棉棉の工具页
+lang: zh
+theme: system
+services:
+  自己的工具:
+    - title: 短链接
+      description: 生成短链接（虽然本来这个地址就挺长的）
+      link: 'https://dl.mjmm.dpdns.org/'
+      icon:
+        url: favicons/favicon.png
+        wrap: false
+        color: '#3dbcf3'
+      status:
+        enabled: true
+        interval: 3600
+    - title: 照妖镜
+      description: 顾名思义
+      link: 'https://zyj.mjmm.dpdns.org/sc.php'
+      icon:
+        url: favicons/favicon.png
+        wrap: false
+        color: '#68bc71'
+      status:
+        enabled: true
+        interval: 3600
