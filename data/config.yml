@@ -7,7 +7,7 @@ services:
       description: 生成短链接（虽然本来这个地址就挺长的）
       link: 'https://dl.mjmm.dpdns.org/'
       icon:
-        url: src\public\favicons\favicon.png
+        url: favicons/favicon.png
         wrap: false
         color: '#3dbcf3'
       status:
@@ -17,7 +17,7 @@ services:
       description: 顾名思义
       link: 'https://zyj.mjmm.dpdns.org/sc.php'
       icon:
-        url: src\public\favicons\favicon.png
+        url: favicons/favicon.png
         wrap: false
         color: '#68bc71'
       status:
