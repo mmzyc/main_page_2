@@ -8,4 +8,4 @@ services:
       - '3888:3000'
     volumes:
       - ./data:/app/data
-      - ./data/favicons/favicons.png:/app/public/icons/favicons.png
+      - ./data/favicons/favicon.png:/app/public/favicons/favicon.png
