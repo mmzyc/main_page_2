@@ -46,8 +46,9 @@ jobs:
             tags+=($(echo "$version_tag" | cut -d. -f1))
           fi
           releases=""
+          OWNER="${{ github.repository_owner }}"
           for tag in "${tags[@]}"; do
-            releases="${releases:+$releases,}${{ secrets.DOCKERHUB_USERNAME }}/mafl:$tag,ghcr.io/${{ secrets.DOCKERHUB_USERNAME }}/mafl:$tag"
+            releases="${releases:+$releases,}ghcr.io/${OWNER}/mafl:$tag"
           done
           echo "releases=$releases" >> "$GITHUB_OUTPUT"
 
