@@ -7,7 +7,7 @@ export default defineNuxtConfig({
       link: [
         {
           rel: 'icon',
-          href: '/favicons/favicon.png',
+          href: 'https://blog.mjmm.top/upload/favicon.png',
         },
         {
           rel: 'apple-touch-icon',
