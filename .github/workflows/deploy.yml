@@ -4,6 +4,8 @@ name: Deploy to Server
 on:
   push:
     branches: [ main ]
+    paths-ignore:
+      - 'data/config.yml'
 
 jobs:
   deploy:
