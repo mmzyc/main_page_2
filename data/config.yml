@@ -31,3 +31,14 @@ services:
       status:
         enabled: true
         interval: 3600
+  
+  其它网站:
+    - title: Mafl
+      description: 这个页面使用的主题
+      link: https://mafl.hywax.space/
+      icon:
+        url: https://mafl.hywax.space/favicon.ico
+      status:
+        enabled: true
+        interval: 3600
+
