@@ -31,6 +31,16 @@ services:
       status:
         enabled: true
         interval: 3600
+
+  有趣的网站:
+    - title: 网络天才 Akinator
+      description: 通过询问问题猜出你所想
+      link: https://cn.akinator.com/
+      icon:
+        url: https://cn.akinator.com/favicon.ico
+      status:
+        enabled: true
+        interval: 3600
   
   其它网站:
     - title: Mafl
