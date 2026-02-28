@@ -38,6 +38,7 @@ services:
       link: https://cn.akinator.com/
       icon:
         url: https://cn.akinator.com/favicon.ico
+        wrap: true
       status:
         enabled: true
         interval: 3600
@@ -48,6 +49,7 @@ services:
       link: https://mafl.hywax.space/
       icon:
         url: https://mafl.hywax.space/favicon.ico
+        wrap: true
       status:
         enabled: true
         interval: 3600
