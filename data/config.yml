@@ -31,6 +31,15 @@ services:
       status:
         enabled: true
         interval: 3600
+    - title: 棉の备用vpn
+      description: 棉の备用vpn，用以防止主用出问题
+      link: https://cfvpn.mjmm.top/admin
+      icon:
+        url: https://blog.mjmm.top/upload/favicon.png
+      status:
+        enabled: true
+        interval: 3600
+
 
   实用工具:
     - title: 命令生成器
