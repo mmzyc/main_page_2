@@ -52,6 +52,16 @@ services:
         enabled: true
         interval: 3600
 
+    - title: 数据包生成器
+      description: 用以辅助制作minecraft数据包
+      link: https://misode.github.io/
+      icon:
+        url: https://misode.github.io/assets/favicon-32-AFHRIzOg.png
+      status:
+        enabled: true
+        interval: 3600
+
+
   有趣的网站:
     - title: 网络天才 Akinator
       description: 通过询问问题猜出你所想
