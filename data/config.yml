@@ -39,6 +39,16 @@ services:
       status:
         enabled: true
         interval: 3600
+        
+    - title: 棉の备用vpn2
+      description: 使用BPB Panel项目搭建
+      link: https://bpb.mjmm.top/panel
+      icon:
+        url: https://bpb.mjmm.top/favicon.ico
+      status:
+        enabled: true
+        interval: 3600
+
 
 
   实用工具:
