@@ -94,7 +94,7 @@ services:
         enabled: true
         interval: 3600
 
-    - 测试:
+    测试:
       - title: Mafl
         description: 这个页面使用的主题
         link: https://mafl.hywax.space/
